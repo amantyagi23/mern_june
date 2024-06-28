@@ -1,0 +1,42 @@
+CSS -> cascade style sheet
+
+use
+
+-> style 
+-> responsive 
+
+
+Selectors :- 
+
+1. universal :-  '*'
+syntax :- * {
+
+}
+
+2.tag name :- h1,  div,span
+
+syntax :- h1 {
+
+}
+
+3. class selectors
+
+syntax :- .classname{
+
+}
+
+
+4 id selectors 
+syntax : #idname{
+
+}
+
+
+
+types of CSS
+
+
+1 inline CSS ->  same line css 
+2 intenal css ->  head of html
+3 external css - > external file  format .css -> link html page
+
