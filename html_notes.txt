@@ -1,0 +1,50 @@
+
+HTML - hyper text mark languague;
+
+hyper text ->  link b/t two more page
+
+single page -  structure - > tags 
+
+tags - >  boundary for data 
+
+tags two types -> 
+1. Block Tags -> new line 
+2. Inline Tags -> same line 
+
+<!DOCTYPE html> ->  advance version -> publish 
+
+html -5 
+
+
+
+order - >
+
+the way in which we a tag and close a tag
+
+
+<1>
+<2>
+</2>
+</1>
+
+parent or child relationship
+
+
+html tags -> start tag 
+head - > information about page no displayable.
+
+body ->  content to show
+
+
+
+block tags
+
+h1 to h6
+
+div
+
+
+
+
+inline tags
+
