@@ -40,3 +40,78 @@ types of CSS
 2 intenal css ->  head of html
 3 external css - > external file  format .css -> link html page
 
+
+
+syntax :- ______{
+    property:value
+}
+
+
+color property:-
+
+color : hexvalue
+color : rgb,rgba
+color : red 
+
+
+backgroundcolor: 
+
+backgroundcolor : hexvalue
+backgroundcolor : rgb,rgba
+backgroundcolor : red 
+
+
+font:
+
+font-weight
+font-family
+font-style
+font-color
+
+
+margin : - 
+outer-spacing
+default margin :- 8px
+
+unit : - %,px,rem,em, 
+
+
+pading : - 
+inner-spacing
+default pading :- 8px
+
+unit : - %,px,rem,em, 
+
+
+width: - 
+vw -viewwidth
+unit : - %,px,vw,rem,em, 
+
+height: - 
+vh -viewheight
+unit : - px,vh,rem,em, 
+    child
+    unit :- px,vh,rem,em,%
+
+
+border:- 
+border provide to tag or element 
+
+border : units , type, color
+
+
+
+flex:-
+display:-flex
+align content into a row 
+width of child :- self mentained
+
+
+
+postion :- 
+ define content postion where to place
+
+ top
+ bottom
+ left 
+ right

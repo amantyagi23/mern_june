@@ -1,0 +1,105 @@
+/*  universal css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  root name cannot be change */
+:root {
+  --black: #000;
+  --red: #c80036;
+  --header-color: #eaeaea;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar-button {
+  color: #000;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+/* genric css */
+.flex {
+  display: flex;
+}
+
+.justfiy-content {
+  justify-content: space-evenly;
+}
+
+.align-item {
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* specific css    */
+
+.navLink {
+  font-size: 1.9em;
+}
+
+.navLink:hover {
+  color: var(--red);
+  transition: 0.22s;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo h1 {
+  font-size: 2.6em;
+}
+
+.navBar {
+  width: 60%;
+}
+
+header {
+  position: fixed;
+  background-color: var(--header-color);
+  padding: 12px 0;
+  width: 100%;
+  top: 0;
+}
+
+.navBar ul li button {
+  background-color: transparent;
+  border: 1px solid var(--black);
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 12px;
+}
+
+.navBar ul li button:hover {
+  background-color: var(--black);
+  color: var(--red);
+}
+section:nth-child(1) {
+  margin-top: 80px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+}
