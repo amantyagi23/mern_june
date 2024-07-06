@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
 /*  universal css */
 * {
   margin: 0;
@@ -20,7 +22,7 @@ body::-webkit-scrollbar-button {
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Nunito Sans";
 }
 
 ul {
@@ -32,9 +34,17 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 /* genric css */
 .flex {
   display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .justfiy-content {
@@ -48,6 +58,11 @@ a {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.col {
+  width: 100%;
+  border-radius: 18px;
 }
 
 /* specific css    */
@@ -94,12 +109,95 @@ header {
   background-color: var(--black);
   color: var(--red);
 }
-section:nth-child(1) {
+main {
   margin-top: 80px;
 }
 
-section {
-  width: 100%;
-  height: 100vh;
-  background-color: aqua;
+.hero h2 {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+
+.hero h1 {
+  font-size: 3.8rem;
+  font-weight: 900;
+}
+
+.hero {
+  text-align: left;
+  background-color: #fff5e1;
+  border-radius: 18px;
+  padding: 10px;
+}
+
+.hero p {
+  line-height: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.hero button {
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  &:hover {
+    background-color: #5a639c;
+    color: #fff;
+  }
+  box-shadow: 5px 5px 15px #5a639c;
+}
+
+.hero-img {
+  width: 50%;
+  text-align: center;
+  background-color: #5a639c;
+  border-radius: 18px;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+.skill-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.skill-section h1 {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+.col h2 {
+  margin: 10px;
+}
+
+.col p {
+  margin: 10px;
+}
+
+.chip {
+  background-color: #102c57;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.card {
+  margin: 10px auto;
+  width: 300px;
+  background-color: #686d76;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  border-radius: 12px;
+}
+.card-content p {
+  font-size: 1em;
+}
+.card-content h4 {
+  font-size: 1.7em;
 }
